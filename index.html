@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
+    <!--Google Map API-->
+    <script src="js/googleMapApi.js"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -145,7 +147,7 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
 					<h3>About Us</h3>
-					<p>Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui, at ornare turpis ultrices sit amet. Nulla cursus lorem ut nisi porta, ac eleifend arcu ultrices.</p>
+					<p>(Blast from the Past) (The saleswoman takes the almanac from the window and gives it to Marty.) Now, this has an interesting feature, a dust jacket. Books used to have these to protect the covers, of course that was before they had dust repellent paper. And if you're interested in dust, we have a quaint little piece from the 1980's </p>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h3>Opening hours</h3>
@@ -159,15 +161,18 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h3>Contact information</h3>
-					<p class="lead">2604 N East St <br>Lansing MI 48906</p>
+					<p class="lead">2604 N East St <br>Lansing, MI 48906</p>
 					<p class="lead"><a href="#">517-267-1201</a>
 					<a href="#"> laestrellita517@gmail.com</a></p>
+                    <div class="list-inline f-social">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/SuperMercadoLaEstrellita/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/supermercado_la_estrellita/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					
 					<ul class="list-inline f-social">
-						<li class="list-inline-item"><a href="https://www.facebook.com/SuperMercadoLaEstrellita/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.instagram.com/supermercado_la_estrellita/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <div id="map"></div>
 					</ul>
 				</div>
 			</div>
@@ -192,5 +197,6 @@
 	<script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
     <script src="js/custom.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6WmVyVvyIbtHJe9tE8_b4lSj0BK4kz6I&callback=initMap"></script>
 </body>
 </html>

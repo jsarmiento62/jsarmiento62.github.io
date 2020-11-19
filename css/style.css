@@ -19,7 +19,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #FFFFFF;
+    color: #000000;
     font-size: 15px;
     font-family: 'Athiti', sans-serif;
     line-height: 1.80857;
@@ -342,7 +342,7 @@ button:focus{
 
 
 .qt-background{
-	background: url(../images/qt-bg.jpg) no-repeat;
+	background: url(../images/tacosPlate.JPG) no-repeat;
 	background-size: cover;
 	padding: 100px 0;
 	background-attachment: fixed;
@@ -407,57 +407,24 @@ button:focus{
 }
 
 .filter-button-group button.active {
-    background: #cfa671;
+    background: #f72338;
     color: #fff;
-    box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);
 }
 
 .gallery-single{
 	margin: 30px 0px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    
 }
 
 .gallery-single {
-    position: relative;
+    position:relative;
     overflow: hidden;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
 }
 
-.why-text {
-    position: absolute;
-    left: 0;
-    bottom: -100%;
-    right: 0;
-    height: 100%;
-    background: rgba(207, 166, 113, 0.9);
-    padding: 12px 12px;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
-}
-.why-text h4{
-	color: #ffffff;
-	font-size: 24px;
-	font-weight: 500;
-	font-family: 'Arbutus Slab', serif;
-}
-.why-text p{
-	color: #ffffff;
-	font-size: 18px;
-	border-bottom: 1px dashed #010101;
-	margin: 0px;
-	padding-bottom: 15px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-.why-text h5{
-	font-size: 28px;
-	font-weight: 600;
-	color: #ffffff;
-}
-
-.gallery-single:hover .why-text{
-	bottom: 0px;
-}
 
 
 /*------------------------------------------------------------------
@@ -1298,11 +1265,10 @@ blockquote {
 	padding: 70px 0px;
 }
 
-.map-full {
-    width: 100%;
-    height: 500px;
-    border-radius: 0px;
-    margin: 0px auto;
+#map {
+        width: 100%;
+        height: 250px;
+        background-color: grey;
 }
 
 #back-to-top {
