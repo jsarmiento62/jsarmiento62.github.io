@@ -76,13 +76,13 @@
 				<div class="col-lg-12">
 					<div class="special-menu text-center">
 						<div class="button-group filter-button-group">
-							<button id="allFilter" class="active" data-filter="*">All</button>
+							<button id="allFilter" class="active" data-filter="*" onclick="menuHeaderClear()">All</button>
 							<button id="tacoFilter" data-filter=".tacos" onclick="menuHeaderShow('tacoHeader')">Tacos</button>
 							<button id="burritoFilter" data-filter=".burritos" onclick="menuHeaderShow('burritoHeader')">Burritos</button>
-							<button id="tortaFilter" data-filter=".tortasQuesadillas">Tortas/Quesadillas</button>
-							<button id="gorditaFilter" data-filter=".gorditasTostadas">Gorditas/Tostadas</button>
-							<button id="miscFilter" data-filter=".misc">Misc</button>
-							<button id="extraFilter" data-filter=".extras">Extras</button>
+							<button id="tortaFilter" data-filter=".tortasQuesadillas"onclick="menuHeaderShow('tortaHeader')">Tortas/Quesadillas</button>
+							<button id="gorditaFilter" data-filter=".gorditasTostadas" onclick="menuHeaderShow('gorditaHeader')">Gorditas/Tostadas</button>
+							<button id="miscFilter" data-filter=".misc" onclick="menuHeaderShow('miscHeader')">Misc</button>
+							<button id="extraFilter" data-filter=".extras" onclick="menuHeaderShow('extraHeader')">Extras</button>
 						</div>
 					</div>
 				</div>
@@ -92,7 +92,42 @@
             <div id="tacoHeader" class="col-lg-12 col-md-12 special-grid tacos" style="display: none">
                 <div class="gallery-single fix"> 
                     <h1><strong>Tacos</strong></h1>
-                    <p>Corn Shell Tortillas with Cilantro and Onion and your choice of meat</p>
+                    <p>Corn shell tortillas with cilantro, onion, and piled with your choice of meat. Other toppings are extra.</p>
+                </div>
+            </div>
+            
+            <div id="burritoHeader" class="col-lg-12 col-md-12 special-grid" style="display: none">
+                <div class="gallery-single fix"> 
+                    <h1><strong>Burritos</strong></h1>
+                    <p>12 inch flour tortilla filled with refried beans, lettuce, cheese, Mexican cream, tomato, and piled with your your choice of meat</p>
+                </div>
+            </div>
+            
+            <div id="tortaHeader" class="col-lg-12 col-md-12 special-grid tacos" style="display: none">
+                <div class="gallery-single fix"> 
+                    <h1><strong>Torta</strong></h1>
+                    <p> Fluffy bun spread with butter and topped with refried beans, creamy avocado, spicy jalapeno, lettuce, cheese, and piled with your choice of meat.</p>
+                </div>
+            </div>
+            
+            <div id="gorditaHeader" class="col-lg-12 col-md-12 special-grid tacos" style="display: none">
+                <div class="gallery-single fix"> 
+                    <h1><strong>Gorditas</strong></h1>
+                    <p>Fried masa and stuffed with cheese, lettuce, Mexican cream, and piled with your choice of meat.</p>
+                </div>
+            </div>
+            
+            <div id="miscHeader" class="col-lg-12 col-md-12 special-grid tacos" style="display: none">
+                <div class="gallery-single fix"> 
+                    <h1><strong>Misc</strong></h1>
+                    <p>Variety of other foods we offer</p>
+                </div>
+            </div>
+            
+            <div id="extraHeader" class="col-lg-12 col-md-12 special-grid tacos" style="display: none">
+                <div class="gallery-single fix"> 
+                    <h1><strong>Extra</strong></h1>
+                    <p>Extras that can be added to your order of food</p>
                 </div>
             </div>
         
@@ -178,13 +213,6 @@
 				</div>
                 
                 <!--Burritos Section -->
-                <div id="burritoHeader" class="col-lg-12 col-md-12 special-grid burritos" style="display: none">
-                <div class="gallery-single fix"> 
-                    <h1><strong>Burritos</strong></h1>
-                    <p>Corn Shell Tortillas with Cilantro and Onion and your choice of meat</p>
-                </div>
-            </div>
-                
 				<div class="col-lg-4 col-md-6 special-grid burritos">
 					<div class="gallery-single fix">
                         <h2>Burrito de Lengua</h2>
