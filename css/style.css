@@ -425,7 +425,18 @@ button:focus{
     box-shadow: 0 0 10px #ccc;
 }
 
+#foodCarousel{
+    padding-top: 20px;
+}
 
+.carousel-item > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
 
 /*------------------------------------------------------------------
     Gallery
@@ -446,6 +457,15 @@ button:focus{
 .tz-gallery .lightbox img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+border-radius: 10px;
+
+    
 }
 
 /*------------------------------------------------------------------
