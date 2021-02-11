@@ -437,6 +437,10 @@ button:focus{
     -o-transition: 0.3s ease-in-out left;
     transition: 0.3s ease-in-out left;
 }
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
 
 /*------------------------------------------------------------------
     Gallery
