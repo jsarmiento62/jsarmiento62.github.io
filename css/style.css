@@ -1318,6 +1318,21 @@ blockquote {
 	font-size: 30px;
 }
 
+/*------------------------------------------------------------------
+    Bakery
+-------------------------------------------------------------------*/
+#bakeryCarousel {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#bakeryCarousel img {
+    height: 50%;
+    width: 50%;
+}
+.bakeryParagraph{
+    padding-top: 10px;
+    text-align: center;
+}
 
 
 
